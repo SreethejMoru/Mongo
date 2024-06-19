@@ -42,7 +42,7 @@ EOF
 echo "===> executing ddclaration"
 cat <<EOF | sudo tee /etc/salt/minion.d/id.conf
 # Declare the minion ID
-id: 
+id: key_1
 EOF
 cat <<EOF | sudo tee -a /etc/salt/minion
 # Configure mine_functions
